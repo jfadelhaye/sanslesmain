@@ -1,0 +1,8 @@
+version: "3"
+    
+services:
+  wordpress:
+    image: nats
+    volumes:
+      - ./dir:/tmp/static
+    restart: always
